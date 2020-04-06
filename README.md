@@ -10,7 +10,8 @@ See also: [How to use Femap Scripts](https://github.com/aaronjasso/How_to_use_Fe
 Often while meshing, I like to reserve low IDs for "special" nodes and elements. Like constraints, or maybe certain loaded elements. So I'll usually start meshing at ID 100. But as I continue meshing additional geometry, the mesher will frequently auto-populate the node and element ID fields with the lowest ID available, which is usually 1. This macro sets the `next available ID` in Femap for nodes and elements to the first ID available after the existing nodes and elements.
 
 For example, in this model:
-```Unassigned Nodes: 1-100 (I don't want to use these IDs yet, but Femap doesn't know this)
+```
+Unassigned Nodes: 1-100 (I don't want to use these IDs yet, but Femap doesn't know this)
 Existing Nodes: 101 - 88,728
 
 Unassigned Elements: 1-100 (I want to reserve these for later)
