@@ -17,9 +17,11 @@ Unassigned Elements: 1-100 (I want to reserve these for later)
 Existing Elements: 101-74,354
 ```
 The mesher will often look like this
+
 ![Before](images/Before.png)
 
 After running this macro, the mesher will look like this instead
+
 ![After](images/After.png)
 
 Note: You can manually change the fields in the mesher, but with large models it becomes difficult to keep track of what IDs are available. This macro makes it simple.
