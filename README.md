@@ -15,7 +15,7 @@ Unassigned Nodes: 1-100 (I don't want to use these IDs yet, but Femap doesn't kn
 Existing Nodes: 101 - 88,728
 
 Unassigned Elements: 1-100 (I want to reserve these for later)
-Existing Elements: 101-74,354
+Existing Elements: 101 - 74,354
 ```
 The mesher will often look like this
 
